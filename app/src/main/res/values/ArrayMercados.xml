@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Mercados">
+        <item> Mercado San Camilo </item>
+        <item> Mercado 13 de Enero </item>
+        <item> Mercado Nueva Esperanza </item>
+        <item> Mercado La Nueva Aurora</item>
+        <item> Mercado 7 de Agosto </item>
+        <item> Mercado Hipolito Unanue</item>
+        <item> Mercado El Palomar </item>
+    </array>
+    <array name="Distritos">
+        <item> SOCABAYA </item>
+        <item> SACHACA </item>
+        <item> JOSE LUIS BUSTAMANTE Y RIVERO</item>
+        <item> YANAHUARA </item>
+        <item> CHARACATO </item>
+        <item> PAUCARPATA </item>
+        <item> CERCADO </item>
+    </array>
+
+</resources>
