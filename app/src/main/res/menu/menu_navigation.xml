@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Inicio1"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/Buscar1"
+        android:title="Buscar"
+        android:icon="@drawable/ic_search"/>
+    <item
+        android:id="@+id/Videos1"
+        android:title="Video"
+        android:icon="@drawable/ic_video"/>
+    <item
+        android:id="@+id/Juego1"
+        android:title="Juego"
+        android:icon="@drawable/ic_juego"/>
+    <item
+        android:id="@+id/Perfil1"
+        android:title="Perfil"
+        android:icon="@drawable/ic_account_circle_black_usuario"/>
+
+</menu>

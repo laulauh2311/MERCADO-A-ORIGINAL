@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.miappmercado">
+    package="com.example.aplicacionmercadoa">
 
     <application
         android:allowBackup="true"
@@ -8,17 +8,32 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Registro2"></activity>
-        <activity
-            android:name=".MercadoPrincipal"
-            android:label="@string/title_activity_mercado_principal"
-            android:theme="@style/AppTheme.NoActionBar" />
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".NivelesMemorama"></activity>
+        <activity android:name=".PaginaJuego" />
+        <activity android:name=".PaginaVideo" />
+        <activity android:name=".SanCamiloPescados" />
+        <activity android:name=".SanCamiloFrutas" />
+        <activity android:name=".PaginaPerfil" />
+        <activity android:name=".PagoCompra" />
+        <activity android:name=".GenerarCompra" />
+        <activity android:name=".SanCamiloCarnes" />
+        <activity android:name=".CarroCompra" />
+        <activity android:name=".SanCamiloVerduras" />
+        <activity android:name=".PaginaBuscar" />
+        <activity android:name=".PaginaHome" />
+        <activity android:name=".MostrarDatosActivity" />
+        <activity android:name=".SanCamilo" />
+        <activity android:name=".PrincipalVendedor" />
         <activity android:name=".PrincipalMercado" />
+        <activity android:name=".RegistrodeTiendas" />
+        <activity android:name=".RegistrodeClientes" />
         <activity android:name=".Registro" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MemoNivelFacil" />
+        <activity android:name=".MemoNivelDificil" />
+        <activity android:name=".Memo_Nivel_Intermedio" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,2 +1,2 @@
-rootProject.name='MiAppMercado'
 include ':app'
+rootProject.name = "AplicacionMercadoña"
